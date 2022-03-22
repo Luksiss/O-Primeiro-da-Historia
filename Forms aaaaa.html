@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html Lang="pt-br">
+<head>
+<meta charset="UTF-8">
+
+<title> Pagina 3 de 3 </title>
+</head>
+
+
+<body style="background-color:rgb(0, 0, 0);">
+</body>
+
+<div style="color: white;">
+
+<header>
+    <h1> Forms Exemplo HTML </h1>
+</header>
+<header> 
+    <nav> 
+    
+      | <a style="text-decoration: none;color: white;" href="O site.html">Pagina 1</a></li> |
+    
+       <a style="text-decoration: none;color: white;" href="O site pagina 2.html">Pagina 2</a> | 
+    
+       <a style="text-decoration: none;color: white;" href="Forms aaaaa.html">Pagina 3</a></li> |
+    
+   </nav> 
+    </header>
+
+   <p style="text-align: left;"> <img src="https://64.media.tumblr.com/7f9a75b799a14dc7a2bc61ce705dedda/tumblr_lqpfuzvN2k1r0ralmo1_r4_500.gifv" width="140" height="80"><img src="">
+
+<article>
+<form method="post" id="fContato" action="malito:email@gmail.com.br" oninput="result.value=parseInt(valor_01.value)+parseInt(valor_02.value)">
+
+    <fieldset>
+<legend> identificação </legend>
+<label for="cNome" >Nome  </label><br />
+<input type="text" size="50" name="tNome"
+ id="cNome" required="required"/>
+   
+<br /><br />
+<p> Você mora: </p>
+<input type="radio" name="tipo" id="cid" value="C"/>
+<label for="cid"> Cidade </label><br />
+<input type="radio" name="tipo" id="inter" value="I"/>
+<label for="cid"> Interior </label><br />
+</fieldset>
+<br>
+
+<fieldset>
+<legend> Extra Info </legend>
+<p> Qual o seu meio de transporte? </p>
+<input type="checkbox" id="transporte1" name="transporte1" value="bike"/>
+<label for="transporte1"> Bicicleta </label><br />
+
+<input type="checkbox" id="transporte2" name="transporte2" value="car"/>
+<label for="transporte2"> Carro </label><br />
+
+<input type="checkbox" id="transporte3" name="transporte3" value="metro"/>
+<label for="transporte3"> Metrô </label><br />
+
+
+<input type="checkbox" id="transporte4" name="transporte4" value="Bus"/>
+<label for="transporte4"> ônibus </label><br />
+<label for="time">Selecione seu time:</label>
+<select id="time" name="time">
+<option value="cruzeiro"> Cruzeiro</option>
+<option value="sao_paulo"> São Paulo</option>
+<option value="corithians"> Corinthias</option>
+<option value="gremio"> Grêmio</option>
+<option value="goiás"> Goiás</option>
+<option value="santos"> Santos</option>
+</select><br /><br />
+<label for="cCid"> Escolha a sua cidade </label>
+<input list="cidade" name="tCid" id="cCid" placeholder="Sua Cidade"/>
+<datalist id="cidade">
+
+<option value="São Paulo"></option>
+<option value="Campinas"></option>
+<option value="Santos"></option>
+<option value="Santo André padariakkk"></option>
+</datalist>
+</fieldset>
+
+<br>
+
+<fieldset>
+<legend> Exemplo range e output:</legend>
+0
+<input type="range" id="valor_01" name="valor_01"/>100 +
+<input type="number" id="valor_02" name="valor_02" value="50"/>=
+
+<output name="result" for="valor_01 valor_02"></output>
+</fieldset>
+
+<br>
+
+<fieldset>
+<legend> Sua opinião </legend>
+<p> Sugestões, elogios e críticas:</p>
+<textarea name="message" rows="10" cols="30" placeholder=" Deixe aqui sua mensagem "></textarea>
+</fieldset>
+
+<br>
+<input type="submit" value="Enviar"/>
+
+
+</form>
+</article>
+<footer>
+
+<small> Instituto da Oportunidade Social </small>
+
+</footer>
+
+
+
+
+</div>
+
+</html>
