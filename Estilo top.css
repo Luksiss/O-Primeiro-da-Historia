@@ -1,0 +1,35 @@
+@charset "utf-8";
+  
+h2 { text-align: center;
+ color: white;
+
+}
+
+h3 {text-align: center;
+ width: 225px; margin: auto; border: 2px solid white;
+
+}
+
+h4 {text-align: center;
+     width: 400px; margin: auto; border: 2px solid rgb(255, 255, 255); 
+    background-color: rgb(44, 37, 148);
+    font-size: larger;
+}
+
+
+h5 {text-align: center;
+    width: 500px; margin: auto; border: 2px solid rgb(255, 255, 255); 
+   background-color: rgb(253, 149, 30);
+   font-size: larger;
+}
+
+h6 {text-align: center;
+    width: 600px; margin: auto; border: 2px solid rgb(255, 255, 255); 
+   background-color: rgb(44, 37, 148);
+   font-size: larger;
+}
+
+
+p { text-shadow: 2px; }
+
+
